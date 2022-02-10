@@ -20,6 +20,9 @@ class ViewController: UIViewController {
         print("testing")
     }
 
+    func anotherTestFunc() {
+        print("another test")
+    }
 
 }
 
