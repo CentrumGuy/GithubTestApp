@@ -23,5 +23,9 @@ class ViewController: UIViewController {
         print("This is a comment made by Amit")
     }
 
+    func anotherTestFunc() {
+        print("another test")
+    }
+
 }
 
