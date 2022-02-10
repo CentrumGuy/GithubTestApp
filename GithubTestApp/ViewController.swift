@@ -9,17 +9,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var CommentButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        print("Hello World.")
+        print("This is a comment made by Amit")
     }
-    
-    func testing() {
-        print("testing")
-    }
-
 
 }
 
