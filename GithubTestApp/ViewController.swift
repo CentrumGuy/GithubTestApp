@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     }
     
     func testing() {
-        print("testing")
+        print("Pretend to comment something")
     }
 
 
