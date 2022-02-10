@@ -9,6 +9,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var CommentButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -17,7 +19,8 @@ class ViewController: UIViewController {
     }
     
     func testing() {
-        print("testing")
+        print("Pretend to comment something")
+        print("This is a comment made by Amit")
     }
 
     func anotherTestFunc() {
