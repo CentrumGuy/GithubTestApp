@@ -15,6 +15,11 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
+        print("Hello World.")
+    }
+    
+    func testing() {
+        print("Pretend to comment something")
         print("This is a comment made by Amit")
     }
 
